@@ -1,0 +1,22 @@
+.approvedtext {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.textcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+}
+
+.smalltext {
+  line-height: 2em;
+  margin: 10px;
+}
+/*# sourceMappingURL=ApprovedRequest.module.css.map */

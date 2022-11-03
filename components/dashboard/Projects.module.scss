@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // height: 100%;
+}
+.projecttitle{
+//    background-color: aqua;
+   margin-bottom: 60px;
+}
+.buttons{
+    margin-bottom: 0;
+  
+}
+.ullist{
+    list-style: none;
+    width: 200px;
+    text-align: left;
+}

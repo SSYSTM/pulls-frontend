@@ -1,0 +1,21 @@
+.button {
+  border-radius: 20px;
+  border: none;
+  background-color: #413F42;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  margin: 5px;
+  margin-top: 10px;
+  &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+//         box-shadow: rgba(213, 134, 170, 0.4) 0 4px 8px, rgba(203, 126, 158, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+//   transform: translateY(-2px);
+    }
+}
+

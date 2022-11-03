@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "font1";
+  src: url('./fonts/SQR721DN.TTF');
+}
+@font-face {
+  font-family: "font2";
+  src: url('./fonts/Square721BT-RomanExtended.otf');
+}
+@font-face {
+  font-family: "font3";
+  src: url('./fonts/square-721-condensed-bt\ \(1\).ttf');
+}
+@font-face {
+  font-family: "font4";
+  src: url('./fonts/square721_bt_roman.ttf');
+}
+@font-face {
+  font-family: "font5";
+  src: url('./fonts/square_721_bold_extended_bt\ \(1\).ttf');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    font-family: 'font2';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+ /* font-family: 'SQR721DN'; */
+  /* src: url('./fonts/SQR721DN.TTF'); */
+}
+
+
+
+/* .font1{
+  font-family: 'SQR721DN';
+  src: url('./fonts/SQR721DN.TTF');
+}
+.font2{
+  font-family: 'Square721BT-RomanExtended';
+  src: url('./fonts/Square721BT-RomanExtended.otf');
+}
+.font3{
+  font-family: 'square-721-condensed-bt';
+  src: url('./fonts/square-721-condensed-bt\ \(1\).ttf');
+}
+.font4{
+  font-family: 'square721_bt_roman';
+  src: url('./fonts/square721_bt_roman.ttf');
+}
+.font5{
+  font-family: 'SQR721DN';
+  src: url('./fonts/square_721_bold_extended_bt\ \(1\).ttf');
+} */
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+}

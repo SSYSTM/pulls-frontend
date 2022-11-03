@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAC,AAAA,QAAQ,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,IAAI;CACf",
+    "sources": [
+        "DatabaseDashboard.module.scss"
+    ],
+    "names": [],
+    "file": "DatabaseDashboard.module.css"
+}

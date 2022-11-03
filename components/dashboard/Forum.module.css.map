@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,MAAM;EACf,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "Forum.module.scss"
+    ],
+    "names": [],
+    "file": "Forum.module.css"
+}

@@ -1,0 +1,11 @@
+.container {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.pencil {
+  width: 20px;
+  display: inline;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=DashDatabase.module.css.map */
