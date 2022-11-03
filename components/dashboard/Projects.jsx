@@ -3,24 +3,20 @@ import Button from "../buttons/Button";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-
 const Projects = () => {
-  const [projects, setProjects] = useState("")
-
+  const [projects, setProjects] = useState("");
 
   useEffect(() => {
-  // change userid
+    // change userid
     fetch(`http://127.0.0.1:5000/projects?user_id=1`)
       .then((response) => response.json())
       .then((data) => {
         setProjects(data.res.all_user_projects);
       });
-      
-     
-  }, [])
-    // make a get request to projects
- 
-console.log(projects);
+  }, []);
+  // make a get request to projects
+
+  console.log(projects);
   return (
     <div className="w-full py-4 pt-4 text-center flex justify-center flex-col ">
       <h2 className="text-xl">Projects</h2>
@@ -33,6 +29,8 @@ console.log(projects);
             </div>
           );
         })}
+
+        <Link href="/projectdashboard/prodash">Vogue Italia</Link>
       </div>
       <div className="flex space-x-4 justify-center bg-slate-50 p-10 mt-auto w-full">
         <Button>View All</Button>{" "}
