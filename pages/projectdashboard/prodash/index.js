@@ -1,18 +1,24 @@
+import { UserCircleIcon, QuestionMarkCircleIcon, CalculatorIcon, FolderOpenIcon, ArchiveIcon, PhoneIcon, MailIcon, PuzzleIcon, OfficeBuildingIcon } from "@heroicons/react/solid";
+import Link from "next/link";
+
 const ProjectDashboard = () => {
     return (
         <div className="flex justify-center flex-col">
-            <h1 className="text-xl text-center">Vogue Italia</h1>
+
+            <h1 className="text-4xl text-center mt-8">Vogue Italia</h1>
+
 
             <div className="my-12">
-                <p className="my-7">Mood Board</p>
-                <p className="my-7">Contacts</p>
-                <p className="my-7">Requests</p>
-                <p className="my-7">Email Templates</p>
-                <p className="my-7">Call sheet</p>
-                <p className="my-7">Budget / Receipts</p>
-                <p className="my-7">Files</p>
-                <p className="my-7">Pull Inventory</p>
-                <p className="my-7">Archive</p>
+
+                <Link href="/"><p className="my-7 pl-14"><PuzzleIcon className="h-6 w-6 mt-6" /> Mood Board</p></Link>
+                <Link href="/"><p className="my-7 pl-14"><UserCircleIcon className="h-6 w-6 mt-6" />Contacts</p></Link>
+                <Link href="/"><p className="my-7 pl-14"><QuestionMarkCircleIcon className="h-6 w-6 mt-6" /> Requests</p></Link>
+                <Link href="/"><p className="my-7 pl-14"><MailIcon className="h-6 w-6 mt-6" /> Email Templates</p></Link>
+                <Link href="/"><p className="my-7 pl-14"><PhoneIcon className="h-6 w-6 mt-6" /> Call sheet</p></Link>
+                <Link href="/"><p className="my-7 pl-14"> <CalculatorIcon className="h-6 w-6 mt-6" />Budget / Receipts</p></Link>
+                <Link href="/"><p className="my-7 pl-14"><FolderOpenIcon className="h-6 w-6 mt-6" /> Files</p></Link>
+                <Link href="/"><p className="my-7 pl-14"><OfficeBuildingIcon className="h-6 w-6 mt-6" />Pull Inventory</p></Link>
+                <Link href="/"><p className="my-7 pl-14"><ArchiveIcon className="h-6 w-6 mt-6" /> Archive</p></Link>
                 <div class="flex justify-center">
                     <div class="mb-3 xl:w-96">
                         <label
@@ -46,7 +52,7 @@ const ProjectDashboard = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
