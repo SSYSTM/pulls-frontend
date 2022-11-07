@@ -1,14 +1,16 @@
 import { UserCircleIcon, QuestionMarkCircleIcon, CalculatorIcon, FolderOpenIcon, ArchiveIcon, PhoneIcon, MailIcon, PuzzleIcon, OfficeBuildingIcon } from "@heroicons/react/solid";
 import Link from "next/link";
+import Notes from "../notes";
 
 const ProjectDashboard = () => {
+
     return (
         <>
             <div>
                 <h1 className="text-4xl text-center mt-8 underline">Vogue Italia</h1>
             </div>
             <div className="flex flex-row">
-                <div className="my-12 ">
+                <div className="my-12" style={{ border: '2px solid grey', paddingRight: '4rem' }}>
 
                     <Link href="/"><p className="my-7 pl-14 cursor-pointer"><PuzzleIcon className="h-6 w-6 mt-6" /> Mood Board</p></Link>
                     <Link href="/"><p className="my-7 pl-14 cursor-pointer"><UserCircleIcon className="h-6 w-6 mt-6" />Contacts</p></Link>
@@ -19,6 +21,12 @@ const ProjectDashboard = () => {
                     <Link href="/"><p className="my-7 pl-14 cursor-pointer"><FolderOpenIcon className="h-6 w-6 mt-6" /> Files</p></Link>
                     <Link href="/"><p className="my-7 pl-14 cursor-pointer"><OfficeBuildingIcon className="h-6 w-6 mt-6" />Pull Inventory</p></Link>
                     <Link href="/"><p className="my-7 pl-14 cursor-pointer"><ArchiveIcon className="h-6 w-6 mt-6" /> Archive</p></Link>
+                </div>
+
+                <div className="ml-20">
+
+
+                    <Notes />
                 </div>
             </div>
 
